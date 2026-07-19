@@ -1176,6 +1176,50 @@ blockquote {
   }
 }
 
+
+
+
+/* ---------- Адаптация даты ---------- */
+
+@media (max-width: 768px) {
+
+  .date-section{
+    padding: 50px 15px;
+  }
+
+  .calendar-card{
+    min-height: auto;
+    padding: 30px 20px;
+  }
+
+  .calendar-icon{
+    width: 60px;
+    height: 60px;
+  }
+
+  .weekday{
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  #sttext{
+    font-size: 3rem;
+    line-height: 1;
+    margin: 10px 0;
+  }
+
+  .calendar-card span{
+    font-size: 20px;
+  }
+
+}
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
